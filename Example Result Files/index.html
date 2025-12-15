@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Peas - Shopping Cart</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Newsreader:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shopping-cart">
+    <!-- Navigation -->
+    <nav class="navigation">
+      <h1 class="logo">World Peas</h1>
+      <a href="#" class="nav-link">Shop</a>
+      <a href="#" class="nav-link">Newstand</a>
+      <a href="#" class="nav-link">Who we are</a>
+      <a href="#" class="nav-link">My profile</a>
+      <button class="cart-button">Basket (3)</button>
+    </nav>
+
+    <!-- Page Heading -->
+    <header class="page-heading">
+      <h2 class="heading-title">Basket</h2>
+      <p class="heading-subtitle">3 items</p>
+      <div class="divider"></div>
+    </header>
+
+    <!-- Page Body -->
+    <main class="page-body">
+      <!-- Items -->
+      <section class="items">
+        <!-- Tomato Item -->
+        <article class="item-card">
+          <div class="item-image">
+            <img src="images/ed-o-neil-avvd-zlh-dow-a-unsplash-1.png" alt="Heirloom tomato">
+          </div>
+          <div class="item-content">
+            <div class="item-header">
+              <h3 class="item-title">Heirloom tomato</h3>
+              <p class="item-price">$5.99</p>
+            </div>
+            <p class="item-unit-price">$5.99 / lb</p>
+            <div class="item-footer">
+              <div class="input-field">
+                <span class="input-value">1 lb</span>
+                <img src="https://www.figma.com/api/mcp/asset/f01cb334-fcb8-4a98-a775-c24247beb76d" alt="Edit" class="input-icon">
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Ginger Item -->
+        <article class="item-card">
+          <div class="item-image">
+            <img src="images/noonbrew-zi-cb4-e-kmak-unsplash.png" alt="Organic ginger">
+          </div>
+          <div class="item-content">
+            <div class="item-header">
+              <h3 class="item-title">Organic ginger</h3>
+              <p class="item-price">$6.50</p>
+            </div>
+            <p class="item-unit-price">$12.99 / lb</p>
+            <div class="item-footer">
+              <div class="input-field">
+                <span class="input-value">0.5 lb</span>
+                <img src="https://www.figma.com/api/mcp/asset/b0ca6364-46a9-452e-b54c-ac061999d5fc" alt="Edit" class="input-icon">
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Onion Item -->
+        <article class="item-card">
+          <div class="item-image">
+            <img src="images/k8-0-fk-p-hulv-m-unsplash-2.png" alt="Sweet onion">
+          </div>
+          <div class="item-content">
+            <div class="item-header">
+              <h3 class="item-title">Sweet onion</h3>
+              <p class="item-price">$14.95</p>
+            </div>
+            <p class="item-unit-price">$2.99 / lb</p>
+            <div class="item-footer">
+              <div class="input-field">
+                <span class="input-value">5 lb</span>
+                <img src="https://www.figma.com/api/mcp/asset/f3752e84-20a4-4704-8e5f-01495936a4ae" alt="Edit" class="input-icon">
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- Order Summary -->
+      <aside class="summary">
+        <h3 class="summary-title">Order summary</h3>
+        <div class="summary-details">
+          <div class="summary-row">
+            <span class="summary-label">Subtotal</span>
+            <span class="summary-value">$27.44</span>
+          </div>
+          <div class="summary-row">
+            <span class="summary-label">Shipping</span>
+            <span class="summary-value">$3.99</span>
+          </div>
+          <div class="summary-row">
+            <span class="summary-label">Tax</span>
+            <span class="summary-value">$2.00</span>
+          </div>
+          <div class="summary-row summary-total">
+            <span class="summary-label">Total</span>
+            <span class="summary-value">$33.43</span>
+          </div>
+        </div>
+        <button class="checkout-button">
+          <span>Continue to payment</span>
+          <img src="https://www.figma.com/api/mcp/asset/62d0da1a-a52a-4200-a63c-421c69a46fd8" alt="Arrow" class="button-icon">
+        </button>
+      </aside>
+    </main>
+  </div>
+</body>
+</html>

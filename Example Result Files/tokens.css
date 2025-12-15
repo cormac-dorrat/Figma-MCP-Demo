@@ -1,0 +1,43 @@
+/* Design Tokens from Figma Variables */
+:root {
+  /* Colors - Text */
+  --DT-color-text-brand: #426b1f;
+  --DT-color-text-primary: #000000;
+  --DT-color-text-invert: #ffffff;
+  
+  /* Colors - Surface */
+  --DT-color-surface-brand: #426b1f;
+  --DT-color-surface-primary: #ffffff;
+  --DT-color-surface-secondary: #fafaf5;
+  
+  /* Colors - Border */
+  --DT-color-border-primary: #e6e6e6;
+  --DT-color-border-secondary: rgba(0, 0, 0, 0.06);
+  --DT-color-border-tertiary: #6d6d6d;
+  
+  /* Typography - Font Family */
+  --DT-font-family-title: 'Newsreader', serif;
+  --DT-font-family-body: 'Inter', sans-serif;
+  
+  /* Typography - Font Size */
+  --DT-font-size-small: 16px;
+  --DT-font-size-medium: 20px;
+  --DT-font-size-large: 32px;
+  --DT-font-size-xlarge: 64px;
+  
+  /* Typography - Line Height */
+  --DT-font-line-height-small: 21px;
+  --DT-font-line-height-medium: 26px;
+  --DT-font-line-height-large: 32px;
+  --DT-font-line-height-xlarge: 77px;
+  
+  /* Typography - Font Weight */
+  --DT-font-weight-light: 300;
+  --DT-font-weight-regular: 400;
+  --DT-font-weight-medium: 500;
+  --DT-font-weight-bold: 600;
+  
+  /* Spacing - Stroke */
+  --DT-stroke-light: 1px;
+  --DT-stroke-regular: 2px;
+}
