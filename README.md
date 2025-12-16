@@ -48,11 +48,11 @@
     - Select Start
 
 ### Example Prompt
-\<Link to page frame>
-
-Using the Figma MCP server tools, extract all variables used by the selected frame (colors, typography, spacing, etc.). Generate a tokens.css with :root { --DT-* } values based on those variables. Then create index.html and styles.css that only reference var(--DT-...) — no external CSS libraries. Preserve component structure and responsive layout.
-
-When mapping, use semantic token names from Figma variables (e.g., color/text/primary → --DT-color-text-primary). For typography, output CSS variables for font family, sizes, line-heights.
+> \<Link to page frame>
+> 
+> Using the Figma MCP server tools, extract all variables used by the selected frame (colors, typography, spacing, etc.). Generate a tokens.css with :root { --DT-* } values based on those variables. Then create index.html and styles.css that only reference var(--DT-...) — no external CSS libraries. Preserve component structure and responsive layout.
+> 
+> When mapping, use semantic token names from Figma variables (e.g., color/text/primary → --DT-color-text-primary). For typography, output CSS variables for font family, sizes, line-heights.
 
 ### Images
 _Figma Design_
