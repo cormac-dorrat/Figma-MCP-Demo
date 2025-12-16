@@ -10,11 +10,11 @@
 - A Figma account
 
 ## Steps
-### Import the Figma design to use
+### 1. Import the Figma design to use
 - On your account page, click the Import button on the top-right.
 - Import the Figma demo file.
 
-### Setup Figma MCP Server
+### 2. Setup Figma MCP Server
 - Install Figma MCP Server in VS Code via Extensions (search @mcp Figma).
 - In the VS Code search bar, type >MCP: Add Server.
 - Select HTTP.
@@ -24,7 +24,7 @@
 - Complete the authentication process with your Figma account to allow VS Code to access it.
 - The server is now installed and running.
 
-### Generate the site with GitHub Copilot
+### 3. Generate the site with GitHub Copilot
 - In Figma, right-click the frame of the shopping cart page and select Copy as > Copy link to selection to retrieve the component’s URL.
 - Prompt GHCP to build the site (see the example prompt in the notes section), using the variables and tokens from your design system by providing design details via the URL.
 - Add adjustments as needed.
